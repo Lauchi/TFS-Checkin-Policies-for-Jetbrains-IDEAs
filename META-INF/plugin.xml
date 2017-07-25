@@ -1,0 +1,14 @@
+<idea-plugin>
+    <name>Check In Policies</name>
+    <description>This plugin implements policies for Grenke TFS</description>
+    <version>1.0</version>
+    <vendor>JetBrains</vendor>
+    <idea-version since-build="140"/>
+    <depends>TFS</depends> <!-- we need a dependency on TFS integration plugin-->
+    <depends>com.intellij.modules.rider</depends>
+    
+    <extensions defaultExtensionNs="TFS">
+        <checkinPolicy implementation="sample.CheckinCommentPolicy"/>
+        <checkinPolicy implementation="sample.WorkItemsPolicy"/>
+    </extensions>
+</idea-plugin>
