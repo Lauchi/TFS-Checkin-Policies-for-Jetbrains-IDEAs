@@ -204,7 +204,7 @@
       <module fileurl="file://$PROJECT_DIR$/GrenkeCheckinPolicies.iml" filepath="$PROJECT_DIR$/GrenkeCheckinPolicies.iml" />
     </modules>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_5" default="false" project-jdk-name="Rider RD-171.4456.1432 ploicySDK" project-jdk-type="IDEA JDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_5" default="false" project-jdk-name="Rider RD-171.4456.1432 poiicy SDK" project-jdk-type="IDEA JDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="ResourceManagerContainer">
@@ -223,6 +223,9 @@
   </component>
   <component name="SvnBranchConfigurationManager">
     <option name="mySupportsUserInfoFilter" value="true" />
+  </component>
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="svn" />
   </component>
   <component name="WebServicesPlugin" addRequiredLibraries="true" />
 </project>
