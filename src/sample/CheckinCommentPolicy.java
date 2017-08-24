@@ -16,7 +16,7 @@ public class CheckinCommentPolicy extends PolicyBase {
     // be triggered if this policy was enabled (using Team Explorer)
     private static final String ID = "CheckForCommentsPolicy.CheckForComments";
     private static final String DESCRIPTION = "Checks for non-empty checkin comment";
-    private static final String INSTALLATION_INSTRUCTIONS = "This policy is part of CustomCheckinPolicies plugin.";
+    private static final String INSTALLATION_INSTRUCTIONS = "This policy is part of CheckinPolicies plugin.";
 
     private static final PolicyType TYPE = new PolicyType(ID, "Changeset Comments Policy", DESCRIPTION, INSTALLATION_INSTRUCTIONS);
 

@@ -1,6 +1,9 @@
 <idea-plugin>
-    <name>Check In Policies</name>
-    <description>This plugin implements policies for Grenke TFS</description>
+    <name>Check-In Policies for Team Foundation Server (TFS)</name>
+    <description>This plugin implements the following TFS Check-In Policies:
+        CheckForCommentsPolicy.CheckForComments
+        Microsoft.TeamFoundation.VersionControl.Controls.WorkItemPolicy
+    </description>
     <version>1.0</version>
     <vendor>JetBrains</vendor>
     <idea-version since-build="140"/>

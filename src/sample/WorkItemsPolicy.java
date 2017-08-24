@@ -16,7 +16,7 @@ public class WorkItemsPolicy extends PolicyBase {
     // be triggered if this policy was enabled (using Team Explorer)
     private static final String ID = "Microsoft.TeamFoundation.VersionControl.Controls.WorkItemPolicy";
     private static final String DESCRIPTION = "Checks for no tasks checkins";
-    private static final String INSTALLATION_INSTRUCTIONS = "This policy is part of CustomCheckinPolicies plugin.";
+    private static final String INSTALLATION_INSTRUCTIONS = "This policy is part of CheckinPolicies plugin.";
 
     private static final PolicyType TYPE = new PolicyType(ID, "Work Items Policy", DESCRIPTION, INSTALLATION_INSTRUCTIONS);
 
