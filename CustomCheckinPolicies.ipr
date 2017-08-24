@@ -25,9 +25,7 @@
       <entry name="?*.ftl" />
     </wildcardResourcePatterns>
   </component>
-  <component name="CopyrightManager" default="">
-    <module2copyright />
-  </component>
+  <component name="CopyrightManager" default="" />
   <component name="DependencyValidationManager">
     <option name="SKIP_IMPORT_STATEMENTS" value="false" />
   </component>
@@ -201,7 +199,7 @@
   </component>
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/GrenkeCheckinPolicies.iml" filepath="$PROJECT_DIR$/GrenkeCheckinPolicies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TFSCheckinPolicies.iml" filepath="$PROJECT_DIR$/TFSCheckinPolicies.iml" />
     </modules>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_5" default="false" project-jdk-name="Rider RD-171.4456.1432 poiicy SDK" project-jdk-type="IDEA JDK">

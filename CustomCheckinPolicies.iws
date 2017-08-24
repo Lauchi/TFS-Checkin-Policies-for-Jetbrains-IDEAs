@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="f86bfa71-a9c0-4c12-896a-2ebe06c84c60" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TFSCheckinPolicies.jar" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GrenkeCheckinPolicies.jar" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/GrenkeCheckinPolicies.iml" afterPath="$PROJECT_DIR$/TFSCheckinPolicies.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GrenkeCheckinPolicies/sample/CheckinCommentPolicy.class" afterPath="$PROJECT_DIR$/out/production/GrenkeCheckinPolicies/sample/CheckinCommentPolicy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GrenkeCheckinPolicies/sample/WorkItemsPolicy.class" afterPath="$PROJECT_DIR$/out/production/GrenkeCheckinPolicies/sample/WorkItemsPolicy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CustomCheckinPolicies.ipr" afterPath="$PROJECT_DIR$/CustomCheckinPolicies.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CustomCheckinPolicies.iws" afterPath="$PROJECT_DIR$/CustomCheckinPolicies.iws" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,15 +23,15 @@
       <file leaf-file-name="plugin.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/META-INF/plugin.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="65" lean-forward="false" selection-start-line="2" selection-start-column="65" selection-end-line="2" selection-end-column="65" />
+            <state relative-caret-position="200">
+              <caret line="10" column="49" lean-forward="false" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GrenkeCheckinPolicies.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GrenkeCheckinPolicies.iml">
+      <file leaf-file-name="TFSCheckinPolicies.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TFSCheckinPolicies.iml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -48,7 +54,7 @@
         <entry file="file://$PROJECT_DIR$/src/sample/WorkItemsPolicy.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="145">
-              <caret line="16" column="101" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="101" />
+              <caret line="16" column="101" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="101" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -168,7 +174,7 @@
   </component>
   <component name="RunManager" selected="Plugin.ChekinPolicies">
     <configuration name="ChekinPolicies" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="GrenkeCheckinPolicies" />
+      <module name="TFSCheckinPolicies" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea  -Didea.platform.prefix=Rider" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <predefined_log_file id="idea.log" enabled="true" />
@@ -214,8 +220,20 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
       <module name="GrenkeCheckinPolicies" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="TFSCheckinPolicies" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
@@ -295,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1503590963689</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="whatever">
+      <created>1503590986894</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1503590986894</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -303,14 +328,14 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32873806" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32873806" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -334,7 +359,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="changed comments for the policies" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed comments for the policies" />
+    <MESSAGE value="whatever" />
+    <MESSAGE value="renamed project" />
+    <option name="LAST_COMMIT_MESSAGE" value="renamed project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -394,7 +421,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GrenkeCheckinPolicies.iml">
+    <entry file="file://$PROJECT_DIR$/TFSCheckinPolicies.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -444,7 +471,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GrenkeCheckinPolicies.iml">
+    <entry file="file://$PROJECT_DIR$/TFSCheckinPolicies.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -495,7 +522,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GrenkeCheckinPolicies.iml">
+    <entry file="file://$PROJECT_DIR$/TFSCheckinPolicies.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -538,7 +565,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/BugResolvePolicy.java" />
-    <entry file="file://$PROJECT_DIR$/GrenkeCheckinPolicies.iml">
+    <entry file="file://$PROJECT_DIR$/TFSCheckinPolicies.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -597,7 +624,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GrenkeCheckinPolicies.iml">
+    <entry file="file://$PROJECT_DIR$/TFSCheckinPolicies.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -647,7 +674,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GrenkeCheckinPolicies.iml">
+    <entry file="file://$PROJECT_DIR$/TFSCheckinPolicies.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -716,14 +743,14 @@
     <entry file="file://$PROJECT_DIR$/src/sample/WorkItemsPolicy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
-          <caret line="16" column="101" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="101" />
+          <caret line="16" column="101" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="101" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GrenkeCheckinPolicies.iml">
+    <entry file="file://$PROJECT_DIR$/TFSCheckinPolicies.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -733,8 +760,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/META-INF/plugin.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="65" lean-forward="false" selection-start-line="2" selection-start-column="65" selection-end-line="2" selection-end-column="65" />
+        <state relative-caret-position="200">
+          <caret line="10" column="49" lean-forward="false" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
           <folding />
         </state>
       </provider>
