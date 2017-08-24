@@ -1,15 +1,21 @@
 <idea-plugin>
     <name>Check-In Policies for Team Foundation Server (TFS)</name>
-    <description>This plugin implements the following TFS Check-In Policies:
-        CheckForCommentsPolicy.CheckForComments
-        Microsoft.TeamFoundation.VersionControl.Controls.WorkItemPolicy
+    <description><![CDATA[
+        This plugin implements the following TFS Check-In Policies:
+        <br/>
+        <ul>
+            <li>CheckForCommentsPolicy.CheckForComments</li>
+            <li>Microsoft.TeamFoundation.VersionControl.Controls.WorkItemPolicy</li>
+        </ul>
+        <br/>
+        It provides a more "Out of the box" experience for the work with the TFS Intagration Plugin
+        ]]>
     </description>
     <version>1.0</version>
     <vendor>Simon Heiss (simonheiss87@gmail.com)</vendor>
     <idea-version since-build="140"/>
     <depends>TFS</depends> <!-- we need a dependency on TFS integration plugin-->
     <depends>com.intellij.modules.rider</depends>
-    
     <extensions defaultExtensionNs="TFS">
         <checkinPolicy implementation="policies.CheckinCommentPolicy"/>
         <checkinPolicy implementation="policies.WorkItemsPolicy"/>
