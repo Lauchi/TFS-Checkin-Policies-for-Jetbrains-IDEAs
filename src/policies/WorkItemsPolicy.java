@@ -1,4 +1,4 @@
-package sample;
+package policies;
 
 import com.intellij.openapi.progress.ProgressIndicator;
 import com.intellij.openapi.project.Project;
@@ -27,7 +27,7 @@ public class WorkItemsPolicy extends PolicyBase {
 
     public PolicyFailure[] evaluate(@NotNull PolicyContext policyContext, @NotNull ProgressIndicator progressIndicator) {
         if (policyContext.getWorkItems() == null || policyContext.getWorkItems().size() == 0) {
-            return new PolicyFailure[]{new PolicyFailure(this, "No Checkin Without Task")};
+            return new PolicyFailure[]{new PolicyFailure(this, "Check-In is not linked with a work item")};
         }
         return NO_FAILURES;
     }

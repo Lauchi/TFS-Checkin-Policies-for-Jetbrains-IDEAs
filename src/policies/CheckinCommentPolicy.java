@@ -1,4 +1,4 @@
-package sample;
+package policies;
 
 import org.jetbrains.tfsIntegration.checkin.PolicyBase;
 import org.jetbrains.tfsIntegration.checkin.PolicyType;
@@ -27,7 +27,7 @@ public class CheckinCommentPolicy extends PolicyBase {
 
     public PolicyFailure[] evaluate(@NotNull PolicyContext policyContext, @NotNull ProgressIndicator progressIndicator) {
         if (policyContext.getCommitMessage() == null || policyContext.getCommitMessage().trim().length() == 0) {
-            return new PolicyFailure[]{new PolicyFailure(this, "Check in comment is empty")};
+            return new PolicyFailure[]{new PolicyFailure(this, "Check-In comment must not be empty")};
         }
         return NO_FAILURES;
     }
