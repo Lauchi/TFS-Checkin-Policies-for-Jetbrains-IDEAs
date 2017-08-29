@@ -8,14 +8,14 @@
             <li>Microsoft.TeamFoundation.VersionControl.Controls.WorkItemPolicy</li>
         </ul>
         <br/>
-        It provides a more "Out of the box" experience for the work with the TFS Intagration Plugin
+        It provides a more "Out of the box" experience for the work with the TFS Integration Plugin
         ]]>
     </description>
     <version>1.0</version>
     <vendor>Simon Heiss (simonheiss87@gmail.com)</vendor>
     <idea-version since-build="140"/>
     <depends>TFS</depends> <!-- we need a dependency on TFS integration plugin-->
-    <depends>com.intellij.modules.rider</depends>
+    <depends>com.intellij.modules.lang</depends>
     <extensions defaultExtensionNs="TFS">
         <checkinPolicy implementation="policies.CheckinCommentPolicy"/>
         <checkinPolicy implementation="policies.WorkItemsPolicy"/>
