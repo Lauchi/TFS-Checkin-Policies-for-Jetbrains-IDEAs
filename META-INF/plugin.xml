@@ -15,7 +15,7 @@
     <vendor>Simon Heiss (simonheiss87@gmail.com)</vendor>
     <idea-version since-build="140"/>
     <depends>TFS</depends> <!-- we need a dependency on TFS integration plugin-->
-    <depends>com.intellij.modules.vcs</depends>
+    <depends>com.intellij.modules.lang</depends>
     <extensions defaultExtensionNs="TFS">
         <checkinPolicy implementation="policies.CheckinCommentPolicy"/>
         <checkinPolicy implementation="policies.WorkItemsPolicy"/>
