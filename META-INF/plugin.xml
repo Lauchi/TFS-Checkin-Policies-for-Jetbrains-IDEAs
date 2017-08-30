@@ -1,5 +1,5 @@
 <idea-plugin>
-    <name>Check-In Policies for Team Foundation Server (TFS)</name>
+    <name>Check-In Policies for TFS (Team Foundation Server)</name>
     <description><![CDATA[
         This plugin implements the following TFS Check-In Policies:
         <br/>
